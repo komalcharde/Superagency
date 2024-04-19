@@ -1,0 +1,117 @@
+@font-face {
+    src:url(fonts/OneDirection.ttf)format("truetype");
+    font-family: nos;
+}
+.search-wrapper {
+    display: flex; /* Enable flexbox for the wrapper */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically (if needed) */
+  }
+  
+  .search-container {
+    padding: 10px; /* Adjust padding as needed */
+    background-color: #f0f0f0; /* Optional background color */
+    border-radius: 5px; /* Optional rounded corners */
+    width: fit-content; /* Optional: Set width to fit content */
+  }
+  
+  .search-input, .search-button {
+    border: 1px solid #ccc; /* Adjust border style as needed */
+    padding: 5px; /* Adjust padding as needed */
+  }
+  
+
+.pi{
+    text-align: center;
+    font-size: 30px;
+    font-family:sans-serif;
+    color: rgb(15, 14, 14);
+}
+.p2{
+    text-align:center;
+    font-size: 100px;
+    font-family: nos;
+    color: rgb(16, 15, 15);
+}
+
+.menu
+{
+text-align:center;
+background-color: #000000;
+}
+.menu ul
+{
+   display: inline-flex;
+   color:floralwhite;
+}
+.menu ul li
+{
+    font-family: Impact;
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+
+}
+
+.menu ul li:hover
+{
+
+    background: floralwhite;
+    color: #000000;
+    border-radius:3px;
+}
+.paragraph5{
+    font-size: 20px;
+    text-align:center;
+    font-family:Courier;
+    margin: 30px;
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+
+}
+
+
+
+.l{
+    color: rgb(14, 13, 13);
+    background: rgb(213, 206, 12);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 515px; 
+}
+.l:hover{
+    background: rgb(54, 1, 1);
+}
+
+.icons{
+    display: flex;
+    font-size: 3rem;
+    margin-top:0;
+    line-height: 0;
+    align-items: flex-end;
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+
+}
+
+.icons a { margin-right:75px; }
+
+.icons :hover{
+    transform: scale(1.5);
+}
+
+.footer{
+    background-color:black;
+    margin-top:28%;
+}
+.p1{
+    color: floralwhite;
+    font-size: larger;
+    padding-bottom: 10px;
+
+}
